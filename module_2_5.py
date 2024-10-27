@@ -5,7 +5,7 @@ def get_matrix(n, m, value):
         matrix.append(sp)
         for j in range(m):
             sp.append(value)
-            #sp.insert(j, value)
+            #sp.insert(j, value) - также можно использовать
     return matrix
 
 m1 = get_matrix(2, 2, 10)
