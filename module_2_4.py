@@ -11,7 +11,7 @@ for i in numbers:
             is_prime = True
     if is_prime == True and i != 1:
         primes.append(i)
-    if is_prime == False:
+    if not is_prime:
         not_primes.append(i)
 print('Primes: ', primes)
 print('Not Primes: ', not_primes)
